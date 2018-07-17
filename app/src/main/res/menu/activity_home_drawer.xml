@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/user_profile_icon"
+            android:title="Profile" />
+        <item
+            android:id="@+id/register_drive"
+            android:icon="@drawable/driver"
+            android:title="Register as driver" />
+        <item
+            android:id="@+id/about_app"
+            android:icon="@drawable/about_app_icon"
+            android:title="About App" />
+        <item
+            android:id="@+id/contactUs"
+            android:icon="@drawable/contacts_icon"
+            android:title="Contact us" />
+    <item
+        android:id="@+id/send"
+        android:icon="@drawable/send_problem_icon"
+        android:title="Send" />
+    <item
+        android:id="@+id/rule"
+        android:icon="@drawable/rules"
+        android:title="Terms and condition" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/share_icon"
+        android:title="Share" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/logout_icon"
+        android:title="Logout" />
+
+</menu>

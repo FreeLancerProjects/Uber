@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">اوبر</string>
+    <string name="title_activity_home">الرئيسية</string>
+    <string name="navigation_drawer_open">فتح</string>
+    <string name="navigation_drawer_close">اغلاق</string>
+    <string name="google_api_key">AIzaSyBDCZaaE7S2UXpKmCdmTKHh44uYBnSx6WY</string>
+    <string name="connection">تحقق من الاتصال بالانترنت</string>
+</resources>

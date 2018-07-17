@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    android:scrollbars="none"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/login_reg_tv_bg"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="SIGN IN"
+
+        />
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintAnimationEnabled="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        app:fletBackground="@color/reg_btn_color"
+        app:fletPaddingBottom="8dp"
+
+
+        >
+        <EditText
+            android:id="@+id/edt_user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:gravity="center"
+            android:singleLine="true"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textColorHint="@color/gray"
+            android:textSize="13sp"
+            app:backgroundTint="@color/reg_btn_color"
+            android:drawableLeft="@drawable/user_name"
+
+
+            />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+
+    <com.wrapp.floatlabelededittext.FloatLabeledEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        app:fletPaddingBottom="8dp"
+
+
+        >
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:gravity="center"
+            android:singleLine="true"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:textColorHint="@color/gray"
+            android:inputType="textPassword"
+            android:textSize="13sp"
+            app:backgroundTint="@color/reg_btn_color"
+            android:drawableLeft="@drawable/password"
+            />
+    </com.wrapp.floatlabelededittext.FloatLabeledEditText>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/reg_btn_color"
+            android:text="Sign Up ?"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/reg_btn_color"
+            android:text="Forget password ?"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/login_btn"
+        android:textColor="@color/white"
+        android:layout_margin="15dp"
+        android:text="sign in"
+        />
+
+</LinearLayout>
+</ScrollView>
